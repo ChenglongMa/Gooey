@@ -11,14 +11,13 @@ version = '1.0.8.1.dev0'
 deps = [
     'Pillow>=4.3.0',
     'psutil>=5.4.2',
-    'colored>=1.3.93',
+    'colored==1.3.93',
     'pygtrie>=2.3.3',
     're-wx>=0.0.1',
-    'wxpython>=4.2.1'
 ]
 
 if sys.version[0] == '3':
-    deps.append('wxpython>=4.1.0')
+    deps.append('wxpython>=4.2.1')
 
 
 setup(
