@@ -11,11 +11,11 @@ version = '1.2.0-ALPHA'
 deps = [
     'Pillow>=4.3.0',
     'psutil>=5.4.2',
-    'colored>=1.3.93',
+    'colored==1.3.93',
     'pygtrie>=2.3.3',
-    're-wx>=0.0.9',
+    're-wx==0.0.10',
     'typing-extensions==3.10.0.2',
-    'wxpython>=4.1.0',
+    'wxpython>=4.2.1',
     "dataclasses>=0.8;python_version<'3.7'",
 ]
 
